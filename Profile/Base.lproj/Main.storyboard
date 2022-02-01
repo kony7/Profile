@@ -28,13 +28,23 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AL1-d4-67J">
+                                <rect key="frame" x="152" y="799" width="110" height="31"/>
+                                <color key="backgroundColor" red="0.0" green="0.70588235294117641" blue="0.86274509803921573" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <inset key="contentEdgeInsets" minX="20" minY="10" maxX="20" maxY="10"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="プロフィール"/>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="AL1-d4-67J" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="2IG-ax-acs"/>
                             <constraint firstItem="4ZH-dS-tRa" firstAttribute="top" secondItem="QFL-1d-Npa" secondAttribute="bottom" constant="16" id="Feb-mJ-icY"/>
                             <constraint firstItem="QFL-1d-Npa" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="MBn-pM-bhs"/>
                             <constraint firstItem="QFL-1d-Npa" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="MmI-lW-DNK"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="AL1-d4-67J" secondAttribute="bottom" constant="32" id="bAe-GN-BGI"/>
                             <constraint firstItem="QFL-1d-Npa" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="fG9-rx-i4l"/>
                             <constraint firstItem="4ZH-dS-tRa" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="na6-zR-39q"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="4ZH-dS-tRa" secondAttribute="trailing" constant="16" id="uhC-m8-bRI"/>
